@@ -3,14 +3,14 @@ def prime?(num)
     return false
   end
 
-  counter = 0
+  counter = 1
   while counter < num
-    if num % counter === 0
+    if num % counter === 1
       return false
     end
     counter += 1
   end
-  
+
   return true;
 end
 
