@@ -13,6 +13,3 @@ def prime?(num)
 
   return true;
 end
-
-puts prime?(3)
-puts prime?(4)
