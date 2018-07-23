@@ -9,7 +9,7 @@ def prime?(num)
       return false
     }
   end
-
+  return true;
 end
 
 puts prime?(3)
