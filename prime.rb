@@ -3,9 +3,9 @@ def prime?(num)
     return false
   end
 
-  counter = 1
+  counter = 2
   while counter < num
-    if counter % num === 1
+    if num % counter === 1
       return false
     end
     counter += 1
