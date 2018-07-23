@@ -3,10 +3,11 @@ def prime?(num)
     return false
   end
 
-  if num % 2 === 0
-    return true
-  else
-    return false
+  counter = 0
+  while counter < num
+    if(num % counter === 0){
+      return false
+    }
   end
 
 end
